@@ -1,0 +1,47 @@
+.body{
+    margin-top: 0%;
+    padding: 0%;
+}
+
+.bodyy{
+    background-color: aqua;
+}
+
+.heading{
+    display: flex;
+    font-size: 30px;
+}
+.search{
+    height: 35px;
+    width: 250px;
+}
+.prob{
+    font-size: 30px;
+}
+
+.btn{
+    /* display: flex; */
+    padding: 1.0001%;
+    margin-top: 1.2%;
+    /* width: 50px; */
+    margin-left: 39%;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.main{
+    /* background-color: antiquewhite; */
+    justify-content: center;
+    display:inline-block;
+    margin-top: 15%;
+    margin-left: 40%;
+}
+#name{
+    margin-left: 25%;
+}

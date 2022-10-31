@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,25 @@
     <title>Gender identification</title>
     <link rel="stylesheet" href="main.css">
 </head>
-<body>
-    <h1>Gender identification Application</h1>
-    <input type="text" placeholder="Enter Your Name" id="name"> <br>
-    <button id="check">Check</button><br><br>
 
-    <span>Probability : --</span>
+<body class="bodyy">
+    <h1> <marquee behavior="alternate" direction="left"> Check Your gender by Entering your name.... </marquee> </h1>
+    <section class="main">
+        <h1 class="heading">Gender identification Application</h1>
+        <input type="text" class="search" placeholder="Enter Your Name" id="name"> <br>
+        <button id="check" class="btn" >Check</button><br><br>
 
-<div>
-    <img id="male"  src="male_symbol.jpg" alt="" width="100px" style="display:none;">
-    <img id="female"  src="female_symbol.jpg" alt="" width="100px" style="display:none;">
+        <span class="prob">Probability : --</span> <br><br>
 
-</div>
-    
+        <div>
+            <img id="male" src="male_symbol.jpg" alt="" width="100px" style="display:none;">
+            <img id="female" src="female_symbol.jpg" alt="" width="100px" style="display:none;">
 
-<script src="main.js"></script>
+        </div>
+    </section>
+
+
+    <script src="main.js"></script>
 </body>
+
 </html>
